@@ -93,7 +93,7 @@ nav a:hover{
     transform: scale(1.05);
 
 }
-/* ===== TOP RATING SECTION ===== */
+
 
 .rating-summary {
 
@@ -113,7 +113,6 @@ nav a:hover{
 
 }
 
-/* LEFT SIDE BARS */
 
 .rating-bars {
 
@@ -155,7 +154,7 @@ nav a:hover{
 
 }
 
-/* RIGHT SIDE BOX */
+
 
 .overall-rating {
 
@@ -191,7 +190,7 @@ nav a:hover{
 
 }
 
-/* LEFT SIDE */
+
 
 .reviews {
 
@@ -227,7 +226,7 @@ nav a:hover{
 
 }
 
-/* RIGHT SIDE */
+
 
 .review-form {
 
@@ -285,4 +284,85 @@ nav a:hover{
 .star rating span:hover,
 .star rating span:hover ~ span{
     color:#f4b400;
+}
+
+
+.about-section {
+
+    background-color: #e8dfd1; /* same soft cream color */
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 60px;
+
+    margin: 40px;
+
+    border-radius: 10px;
+
+}
+
+.about-text {
+
+    width: 50%;
+
+}
+
+.about-text h2 {
+
+    font-size: 50px;
+
+    margin-bottom: 20px;
+
+    color: #722f37;
+
+}
+
+.about-text .intro {
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+}
+
+.about-text p {
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+}
+
+.about-text button {
+
+    background-color: #722f37;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+}
+
+.about-image {
+
+    width: 40%;
+
+}
+
+.about-image img {
+
+    width: 100%;
+
+    border-radius: 10px;
+
 }
